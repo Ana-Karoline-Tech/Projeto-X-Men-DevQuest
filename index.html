@@ -4,18 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto X-Men - Do zero ao programador contratado</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/styles.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Oxonium:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="cabecalho"></header>
+    <header class="cabecalho">
+        <img class="logo" src="./src/img/logo.svg" alt="Logo-X-Men">
+    </header>
 
     <main class="selecao-de-personagens">
         <section class="personagens">
             <h1 class="titulo">Selecione um personagem</h1>
             <ul class="lista-de-personagens">
-                <li class="personagem"  id="ciclope">
+                <li class="personagem selecionado"  id="ciclope">
                     <img src="src/img/card-ciclope.jpg" alt="Personagem Ciclope">
                 </li>
                 <li class="personagem"  id="jean-grey">
@@ -46,7 +50,7 @@
             
             <div class="informacoes-personagem">
                 <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
-                <p class="descricao-personagem" id="descricao-personagem">Líder dos X-Men, Ciclope possui a habilidade de disparar raios ópticos de alta intensidade.</p>
+                <p class="descricao-personagem" id="descricao-personagem">Líder dos X-Men, Ciclope possui a habilidade de disparar raios ópticos de alta intensidade. Tudo começou após um acindente quando ele era cirança.</p>
 
             </div>
         
